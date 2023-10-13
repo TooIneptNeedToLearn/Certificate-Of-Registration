@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -52,4 +52,42 @@ main .main-head1 {
     border-bottom: #000000 solid;
     padding: 10px;
     background-color: rgb(11, 170, 64);
+}
+
+.student-info-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.label {
+    margin: 100px;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* Content */
+.main-head2{
+    border-top: #000000 solid;
+    border-bottom: #000000 solid;
+    padding: 10px;
+    background-color: rgb(11, 170, 64);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: center;
+}
+
+.unit {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.inside-unit{
+    display: flex;
+    gap: 30px;
 }
