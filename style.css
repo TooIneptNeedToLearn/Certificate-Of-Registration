@@ -78,19 +78,22 @@ span {
     align-items: center;
 }
 
+
 .unit {
-    
+    margin-right: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+   
 }
 
 .inside-unit{
     display: flex;
-    gap: 30px;
+    gap: 45px;
 }
+
 
 .content {
     display: grid;
@@ -98,15 +101,40 @@ span {
 }
 .trifecta1, .trifecta2, .trifecta3, .trifecta4, .trifecta5, .trifecta6, .trifecta7 {
     display: flex;
+    margin-bottom:15px ; 
+    margin-top: 5px;
+    gap: 50px;
+    padding:0;
+    
 }
   
-.trifecta1 , .trifecta2 , .trifecta3 , .trifecta4 , .trifecta5 , .trifecta6 , .trifecta7  {
-    margin:10px ; 
+.column1, .column2 {
+    
+    padding-top: 5px;
+    padding-right: 1px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    margin-right: 10px;
 }
 
-.space-need{
-    margin-left: 50px;
+.column4, .column5 {
+    padding: 0%;
+    margin-left: 25px;
+    
+    
+}
+
+.column6 {
     margin-right: 50px;
+    text-decoration: underline;
+}
+
+.column1-child, .column2-child, .column4-child, .column6-child {
+    margin-bottom: 15px;
 }
   
+.unit-result {
+    display: flex;
+    gap: 100spx;
+}
   
