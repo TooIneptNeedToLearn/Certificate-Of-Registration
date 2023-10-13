@@ -91,3 +91,22 @@ span {
     display: flex;
     gap: 30px;
 }
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.trifecta1, .trifecta2, .trifecta3, .trifecta4, .trifecta5, .trifecta6, .trifecta7 {
+    display: flex;
+}
+  
+.trifecta1 , .trifecta2 , .trifecta3 , .trifecta4 , .trifecta5 , .trifecta6 , .trifecta7  {
+    margin:10px ; 
+}
+
+.space-need{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+  
+  
