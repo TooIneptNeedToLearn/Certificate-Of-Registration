@@ -99,13 +99,18 @@ span {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
 }
-.trifecta1, .trifecta2, .trifecta3, .trifecta4, .trifecta5, .trifecta6, .trifecta7 {
+.trifecta1, .trifecta2, .trifecta3, .trifecta4, .trifecta5, .trifecta6, .trifecta7, .trifecta8 {
     display: flex;
     margin-bottom:15px ; 
     margin-top: 5px;
     gap: 50px;
     padding:0;
     
+}
+
+.trifecta8 div{
+    border-top: #000000 solid;
+    font-weight: bold;
 }
   
 .column1, .column2 {
@@ -115,13 +120,18 @@ span {
     padding-bottom: 5px;
     padding-left: 1px;
     margin-right: 10px;
+    position: relative;
+}
+
+.column2-child-move {
+    position: absolute;
+    left: 250px;
+    font-weight: bold;
 }
 
 .column4, .column5 {
     padding: 0%;
     margin-left: 25px;
-    
-    
 }
 
 .column6 {
@@ -133,8 +143,21 @@ span {
     margin-bottom: 15px;
 }
   
-.unit-result {
-    display: flex;
-    gap: 100spx;
+.main-head-finish {
+    font-style: italic;
 }
-  
+
+.split {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* Bottom Part */
+.ssessed-fees-box{
+    margin: 0;
+    padding:0;
+}
+
+.assessed-head h3{
+    align-items: center;
+}
