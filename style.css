@@ -153,11 +153,27 @@ span {
 }
 
 /* Bottom Part */
-.ssessed-fees-box{
-    margin: 0;
-    padding:0;
+.assessed-head h3{
+    text-align: center;
+    background-color: rgb(11, 170, 64);
+    border-bottom: #000000 solid;
 }
 
-.assessed-head h3{
-    align-items: center;
+.assessed-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.rules-refund {
+    position: relative;
+}
+
+.title-refund {
+    text-align: center;
+}
+
+.rules {
+    font-style: italic;
+    position: absolute;
+    left: 250px;
 }
