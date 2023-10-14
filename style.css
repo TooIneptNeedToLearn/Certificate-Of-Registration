@@ -39,7 +39,7 @@ header h1{
     color: red;
 }
 
-/* Main */
+/* Main 1*/
 main {
     width: 90%;
     margin: auto;
@@ -147,12 +147,14 @@ span {
     font-style: italic;
 }
 
+/* Main-2 */
 .split {
     display: grid;
     grid-template-columns: auto auto;
+    
 }
 
-/* Bottom Part */
+/* Assessed Fees */
 .assessed-head h3{
     text-align: center;
     background-color: rgb(11, 170, 64);
@@ -162,7 +164,27 @@ span {
 .assessed-container {
     display: grid;
     grid-template-columns: auto auto;
+    justify-items: center;
+    align-items: center;
+    border-bottom: #000000 solid;
+    
 }
+
+.main2 {
+    position: relative;
+}
+
+.compute1 {
+    text-align: left;
+    position: relative;
+}
+.compute1 h3 {
+    display: inline-block;
+    margin: 0;
+}
+
+
+/* Rules-Refund */
 
 .rules-refund {
     position: relative;
