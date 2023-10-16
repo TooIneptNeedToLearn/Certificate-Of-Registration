@@ -47,7 +47,7 @@ main {
     padding: 0;
 }
 
-main .main-head1 {
+.main-head1 {
     text-align: center;
     border-bottom: #000000 solid;
     padding: 10px;
@@ -172,6 +172,8 @@ span {
 
 .main2 {
     position: relative;
+    border: #000000 solid;
+    left: 50px;
 }
 
 .compute1, .compute2, .compute3{
@@ -266,5 +268,18 @@ span {
 .registrar-sign img {
     width: 350px;
     height: 110px;
+}
+
+.date-printed {
+    position: absolute;
+    right: 100px;
+    top: 1500px;
+}
+
+.final-footer {
+    text-align: center;
+    border-top: #000000 solid;
+    padding: 0.1px;
+    background-color: rgb(11, 170, 64);
 }
 
