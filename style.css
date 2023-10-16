@@ -150,12 +150,12 @@ span {
 /* Main-2 */
 .split {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     
 }
 
 /* Assessed Fees */
-.assessed-head h3{
+.assessed-head h3, .assessed-container-final{
     text-align: center;
     background-color: rgb(11, 170, 64);
     border-bottom: #000000 solid;
@@ -174,13 +174,28 @@ span {
     position: relative;
 }
 
-.compute1 {
-    text-align: left;
-    position: relative;
+.compute1, .compute2, .compute3{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: #000000 solid;
 }
-.compute1 h3 {
-    display: inline-block;
-    margin: 0;
+
+.give-underline {
+    text-decoration: underline;
+}
+
+.final-label {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #000000;
+}
+
+.final-label > div {
+    padding: 0 10px;
+}
+
+.final-label div:last-child {
+   border-bottom: none;
 }
 
 
@@ -197,5 +212,59 @@ span {
 .rules {
     font-style: italic;
     position: absolute;
-    left: 250px;
+    left: 210px;
+    font-weight: lighter;
+    word-spacing: 9px;
 }
+
+.validation1 {
+    position: absolute;
+    top: 290px;
+    left: 100px;
+}
+
+.empty-line1 {
+    position: absolute;
+    top: 1px;
+    left: 300px;
+    border-bottom: #000000 solid;
+    color: white;
+}
+
+.validation2 {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+
+.empty-line2 {
+    position: absolute;
+    bottom: 1px;
+    left: 300px;
+    border-bottom: #000000 solid;
+    color: white;
+}
+
+.payment-validation-data{
+    position: absolute;
+    left: 450px;
+    bottom: 100px;
+}
+
+.approved-container {
+    position: absolute;
+    left: 200px;
+    top: 450px;
+}
+
+.registrar-sign {
+    position: absolute;
+    top: 500px;
+    left: 290px;
+}
+
+.registrar-sign img {
+    width: 350px;
+    height: 110px;
+}
+
